@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 부원중 3-9 홈페이지</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo1.png">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="부원중 3-9 로고" class="logo" width="230">
+        <span id="d-day" class="d-day-box"></span>
+        <button id="nav-toggle" aria-label="메뉴 열기">더보기▼</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#nav-menu">홈</a></li>
+                <li><a href="#notices">학사일정</a></li>
+                <li><a href="#schedule">수행평가 일정</a></li>
+                <li><a href="datas.html">학급 자료</a></li>
+                <li><a href="suggestion-box.html">건의함</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>3학년 9반 시간표</h2>
+            <img src="images/timetable.jpg" alt="시간표" class="timetable" width="100%" style="max-width: 800px;">
+            <h5 style="text-align: center; color: #646464; font-weight: lighter;">위 시간표는 2025학년도 3-9반의 기본 시간표로 실제 시간표와는 다를 수 있습니다.</h5>
+        </section>
+
+        <section id="notices">
+            <h2>학사일정 📢</h2>
+            <ul>
+                <!-- JavaScript로 동적 생성됨 -->
+            </ul>
+        </section>
+
+        <section id="schedule">
+            <h2>수행평가 일정</h2>
+            <ul>
+                <li>6월 13일: 과학 A, B 수행평가(문제해결형)</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <style>
+            @media (min-width: 1060px) {
+                footer {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    text-align: center;
+                    padding: 10px 0;
+                    box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+                    z-index: 100;
+                }
+            }
+        </style>
+        <p>&copy; Copyright 2025 부원중학교 3-9 <br> All items cannot be copied without permission. </p>
+    </footer>
+    <script src="script.js"></script><br>
+    <script>
+        document.documentElement.style.overflowX = 'hidden';
+    </script>
+</body>
+</html>
+

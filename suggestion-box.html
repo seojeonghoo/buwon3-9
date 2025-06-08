@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 부원중 3-9 홈페이지</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo1.png">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="부원중 3-9 로고" class="logo" width="230">
+        <span id="d-day" class="d-day-box"></span>
+        <button id="nav-toggle" aria-label="메뉴 열기">더보기▼</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="home.html">홈</a></li>
+                <li><a href="home.html">학사일정</a></li>
+                <li><a href="home.html">수행평가 일정</a></li>
+                <li><a href="datas.html">학급 자료</a></li>
+                <li><a href="suggestion-box.html">건의함</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="suggestion-box">
+            <h2>건의함</h2>
+            <span style="font-size: 1.1em; color: #888;">현재 준비 중입니다.<br> 곧 업데이트될 예정입니다.</span>
+            <br>
+            <form id="suggestionForm" method="POST"> <textarea id="suggestion" name="suggestion" rows="4" required></textarea>
+                <button type="submit">제출</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script>
+        document.body.style.overflow = 'hidden';
+    </script>
+</body>
+</html>
+
